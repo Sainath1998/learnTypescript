@@ -8,5 +8,15 @@ const Sai : user = {
     id : 12
 }
 
+const saurabh : user = {
+    name : "Saurabh sing",
+    id : 13
+}
 
-console.log(Sai)
+const suraj : user = {
+    name : "suraj uranw",
+    id : 14
+}
+
+
+console.log(Sai ,'\n', suraj , "\n", saurabh)
