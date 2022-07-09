@@ -1,3 +1,5 @@
+// An interface is a syntactical contract that an entity should conform to. In other words, an interface defines the syntax that any entity must adhere to.
+
 interface user {
     name : string ;
     id : number ;
