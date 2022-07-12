@@ -1,7 +1,7 @@
 // encapsulation is used to hide the data and methods that are meant to be internal and only required for inner working of the object.
 
 
-// health an dstamina are private anc cannot be accessed explicitlty the values can be set using the setter and getter method only
+// health and stamina are private anc cannot be accessed explicitlty the values can be set using the setter and getter method only
 class Player {
     private health!: number;
     private stamina!: number;
@@ -41,3 +41,4 @@ Sainath.setStamina(10);
 
 
 console.log(Sainath.getHealth());  // 10
+console.log(Sainath.getStamina())
